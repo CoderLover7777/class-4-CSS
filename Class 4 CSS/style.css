@@ -1,0 +1,44 @@
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:black;
+    color : beige;
+}
+h1{
+    font-family:'Courier New', Courier, monospace;
+    color:red;
+}
+a{
+    color:blue;
+}
+a:hover{
+    color:yellow;
+}
+ul>li{
+    font-weight: bolder;
+    color:blueviolet
+}
+h1+p {
+    background-color: #161B22;
+    padding: 10px;
+    border-radius: 5px;
+}
+ul li:hover{
+    color:orange
+}
+:nth-child(2){
+    color:yellowgreen
+}
+Profile Image
+p:not(:first-of-type) {
+    text-decoration: underline;
+}
+ul li::before {
+    content: "🚀 ";
+}
+a::after {
+    content: " 🌌";
+}
+p::first-letter {
+    font-size: 200%;
+    color: #FF7B72;
+}
